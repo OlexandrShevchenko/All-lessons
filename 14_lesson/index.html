@@ -145,7 +145,13 @@
         <div class="footer-container">
             <div class="logo-footer">
                 <div class="img-logo-footer">
-                    <img src="./images/footer/tooth.svg" alt="tooth" width="70.96px" height="78.72px"><div class="footer-title">DR. NIKOLA TESLA dentist</div>
+                    <picture>
+                        <source srcset="./images/footer/tooth.svg" media="(min-width: 768px)">
+                        <source srcset="./images/m-footer/Zub_vector 1.svg">
+                        <img src="./images/m-footer/Zub_vector 1.svg" alt="">
+                      </picture> 
+                    <div class="footer-title">DR. NIKOLA TESLA dentist</div>
+                    
                     <div class="footer-nav-info">
                         <div>
                             <p style="padding-top: 30px;"><a href="#">Home</a></p>
@@ -159,6 +165,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
                 <div class="contacts-info">
                     <h2 class="contacts-p">CONTACTS</h2>
                     <p class="nik-p">Nikola Tesla</p>
@@ -173,7 +180,7 @@
                     <p class="mail-p"><a href="#">dr.niktes@gmail.com</a></p>
                     <p class="copyright">© Copyright 2022</p>
                 </div>
-            </div>
+
 
         </div>
     </footer>
